@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2023-06-07T11:51:06.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="r8uxEaS9npg-pjD6Uuv6" version="21.3.7" type="github">
+  <diagram name="第 1 页" id="ECKYX7wkvQVGN8tUvL-v">
+    <mxGraphModel dx="788" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0DJRP9sV804AFUGHLvez-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-1" target="0DJRP9sV804AFUGHLvez-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="207" />
+              <mxPoint x="210" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.021;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-1" target="0DJRP9sV804AFUGHLvez-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="207" />
+              <mxPoint x="210" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-1" value="PostProcessor&lt;br&gt;（增强器）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="187" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-2" target="0DJRP9sV804AFUGHLvez-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-2" target="0DJRP9sV804AFUGHLvez-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;BeanFactoryPostProcessor&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;（操作BeanFactory）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263" y="137" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-4" target="0DJRP9sV804AFUGHLvez-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-4" value="&lt;div class=&quot;lake-content&quot;&gt;BeanPostProcessor&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;（操作Bean对象）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263" y="197" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-6" value="根据操作&lt;br&gt;的对象不同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="167" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-7" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;ConfigurationClassPostProcessor&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="137" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-12" value="&lt;div class=&quot;lake-content&quot;&gt;AOP&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="197" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-16" value="举例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="453" y="177" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-17" target="0DJRP9sV804AFUGHLvez-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-17" value="自动装配的实现就是为了从spring.factories文件中获取到对应的bean对象，&lt;br&gt;并且由spring容器来帮我们进行管理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-19" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-22" value="需要操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-19" target="0DJRP9sV804AFUGHLvez-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="250" />
+              <mxPoint x="460" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-26" value="需要" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-27" target="0DJRP9sV804AFUGHLvez-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-27" value="配置注解" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="362" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DJRP9sV804AFUGHLvez-28" target="0DJRP9sV804AFUGHLvez-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-28" value="BeanDefinition&lt;br&gt;（将配置/注解抽象成具体的对象）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="362" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-30" value="实例化操作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="362" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-32" value="反射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="360" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-33" value="&lt;div class=&quot;lake-content&quot;&gt;BeanDefinitionRegisterPostProcessor&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="70" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DJRP9sV804AFUGHLvez-35" value="子接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="58" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
