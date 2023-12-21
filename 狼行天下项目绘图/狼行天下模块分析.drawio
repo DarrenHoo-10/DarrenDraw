@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T02:21:24.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="QGw1ghtK5hGj1ByH5CyV" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T03:05:33.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="x3KCjK1VNvASBS-N3_s8" version="22.1.11" type="github">
   <diagram name="第 1 页" id="N3j8k7D0v8xsWY5Wk8BW">
-    <mxGraphModel dx="675" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1158" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oftxaQmLJoYLnaGgDNFm-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="20" width="540" height="120" as="geometry" />
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-10" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="540" height="120" as="geometry" />
         </mxCell>
         <mxCell id="oftxaQmLJoYLnaGgDNFm-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-10">
           <mxGeometry width="540" height="120" as="geometry" />
@@ -25,8 +25,68 @@
         <mxCell id="oftxaQmLJoYLnaGgDNFm-6" value="搜索模块&lt;br&gt;基于ES全文搜索" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-10">
           <mxGeometry x="190" y="70" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oftxaQmLJoYLnaGgDNFm-7" value="问答模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-10">
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-7" value="问答模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-10">
           <mxGeometry x="370" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-11" value="项目总体模块规划" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="210" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-13" value="&lt;b&gt;微服务&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry x="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-14" value="文章模块&lt;br&gt;目的地/攻略/游记管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry x="10" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-15" value="评论模块&lt;br&gt;文章评论管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry x="190" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-16" value="用户模块&lt;br&gt;登录注册功能" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry x="370" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-17" value="数据模块&lt;br&gt;负责文章数据统计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry x="10" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-18" value="搜索模块&lt;br&gt;基于ES全文搜索" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-19">
+          <mxGeometry x="190" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="350" width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-20">
+          <mxGeometry width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-22" value="&lt;b&gt;网关&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-20">
+          <mxGeometry x="235" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-24" value="网关服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-20">
+          <mxGeometry x="190" y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="450" width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-28">
+          <mxGeometry width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-30" value="&lt;b&gt;前端服务&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-28">
+          <mxGeometry x="225" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-31" value="后台管理服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-28">
+          <mxGeometry x="90" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-40" value="前台展示服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-28">
+          <mxGeometry x="280" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-41" value="Idea模块规划" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="370" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oftxaQmLJoYLnaGgDNFm-42" value="&lt;ol&gt;&lt;li&gt;父项目：trip-parent&lt;/li&gt;&lt;li style=&quot;&quot;&gt;网关：trip-gateway&lt;/li&gt;&lt;li style=&quot;&quot;&gt;前端：&lt;/li&gt;&lt;ul&gt;&lt;li&gt;trip-website&lt;/li&gt;&lt;li&gt;trip-mgrsite&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;公共模块 trip-common 父项目&lt;/li&gt;&lt;ul&gt;&lt;li&gt;trip-common-core：每个模块都需要用到的公共模块&lt;/li&gt;&lt;li&gt;trip-common-redis：&lt;/li&gt;&lt;li&gt;trip-common-es：&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;微服务api trip-server-api 父项目&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;trip-article-api：文章模块&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;trip-comment-api：评论模块&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;trip-user-api：用户模块&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;trip-data-api：数据模块&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;trip-search-api：搜索模块&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;微服务 trip-server 父项目&lt;/li&gt;&lt;ul&gt;&lt;li&gt;trip-article-server：文章模块&lt;/li&gt;&lt;li&gt;trip-comment-server：评论模块&lt;/li&gt;&lt;li&gt;trip-user-server：用户模块&lt;/li&gt;&lt;li&gt;trip-data-server：数据模块&lt;/li&gt;&lt;li&gt;trip-search-server：搜索模块&lt;/li&gt;&lt;/ul&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="oftxaQmLJoYLnaGgDNFm-41">
+          <mxGeometry x="-10" y="10" width="380" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
